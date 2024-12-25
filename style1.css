@@ -1,0 +1,187 @@
+/*
+ 
+CSS for S
+ 
+*/
+ 
+body {
+
+font-family: Verdana, Helvetica, Arial, sans-serif;
+ 
+background-color: pink;
+
+line-height: 125%;
+
+padding: 15px;
+ 
+}
+ 
+h1 {
+
+font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+ 
+font-size: x-large;
+ 
+}
+ 
+li {
+
+font-size: small;
+ 
+}
+ 
+Adding Some Style  87 
+h2 {
+
+color: blue;
+
+font-size: medium;
+
+font-weight: normal;
+ 
+}
+ 
+p {
+
+font-size: small;
+
+color: navy;
+ 
+}
+
+#tagline p {
+
+font-style: italic;
+
+font-family: Georgia, Times, serif;
+background-color: #bed8f3;
+ 
+border-top: 3px solid #7da5d8;
+ 
+border-bottom: 3px solid #7da5d8;
+position: absolute;  top: 20%;
+width: 97%;
+}
+
+#firstbodycontent {position:absolute;  top: 25%;}
+#secondbodycontent {position:absolute;  top: 30%;}
+
+h1, h2, h3{
+
+font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+
+background-color: navy;
+
+color: white;
+ 
+}
+ 
+
+a {
+
+font-weight: bold;
+
+color: black;
+ 
+}
+
+
+a:link{
+
+color: black;
+ 
+}
+ 
+a:visited{
+
+color: gray;
+ 
+}
+ 
+a:hover{
+
+text-decoration: none;
+
+color: white;
+
+background-color: navy;
+ 
+}
+ 
+a:active{
+
+color: violet;
+
+background-color: navy;
+ 
+}
+
+.fun {
+
+color: #339999;
+
+font-family: Georgia, Times, serif;
+
+letter-spacing: 0.05em;
+ }
+
+
+form.contact .fun {
+color: red;
+font-family: Georgia, Times, serif;
+letter-spacing: 0.05em;
+ }
+
+#mainnavigation a {
+
+background-color: #ffcc33;
+
+color: blue;
+
+font-weight: bold;
+ 
+width: 200px;
+ 
+height: 90px;
+border: 4px inset orange;
+text-decoration: none;
+}
+ 
+#firstnavigation {position: absolute; top: 15.5%; left: 25.5%;} 
+ 
+#secondnavigation {position: absolute; top: 15.5%; left: 44.5%;} 
+ 
+#thirdnavigation {position: absolute; top: 15.5%; left: 63.5%;} 
+#fourthnavigation {position: absolute; top: 15.5%; left: 83.5%;} 
+ 
+
+
+form.contact fieldset {border: 2px solid navy; padding: 10px;
+}
+ 
+form.contact legend {font-weight: bold; font-size: small; color: navy; padding:5px;
+ }
+ 
+
+form.contact label {font-weight: bold; font-size: small; color: blue;
+ }
+
+form.contact label.fixedwidth { display: block; width: 30%; float: left;
+ }
+
+
+form.contact .buttonarea input {
+background: navy;
+color: white;
+font-weight: bold;
+padding: 5px;
+border: 1px solid white;
+}
+
+form.contact .buttonarea {
+text-align: center;
+padding: 4px;
+background-color: #0066ff;
+ }
+
+ 
